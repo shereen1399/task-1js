@@ -1,0 +1,110 @@
+.contener{
+    display: flex ;
+    /* flex-direction: column; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contener .pluse {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: green;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.contener .pluse:hover {
+    background: yellowgreen;
+    transform:  scale(1.2);
+    cursor: pointer;
+
+}
+.contener .mun {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    font-size: 30px;
+    background: red;
+    transition: 0.5s;
+    
+    
+    /* visibility:
+    ; */
+}
+.contener .mun:hover{
+    background-color: brown;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn .plusbtn{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: green;
+    overflow: hidden;
+    transition: 0.5s;
+    
+    
+    /* text-align: center; */
+}
+.btn .plusbtn:hover{
+    background: yellowgreen;
+    transform:  scale(1.2);
+    cursor: pointer;
+
+}
+
+.btn .munbtn{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: red;
+    transition: 0.5s;
+    
+}
+.btn .munbtn:hover{
+    background-color: brown;
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+span{
+    width: 30px;
+    height: 60px;
+    display: flex ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     font-size:50px;
+     font-weight:500;
+     padding: 20px;
+    
+}
+.del{
+    
+    background: rgb(66, 1, 1); 
+    text-align: center;
+    margin: 40px 47% ;
+    color: #ccc;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.del:hover{
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
